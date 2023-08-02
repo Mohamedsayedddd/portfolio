@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="containatr">
+<header>
+    <a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">prodact</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">content</a></li>
+    </ul>
+</header>
+<div class="content">
+    <div class="text">
+        <h2>Iphone 13 pro max</h2>
+        <p>Overall, reviews have been positive on Apple's latest smartphone, with some praising the updated cameras, higher refresh rate display, and video capture capabilities.
+          </p>
+              <a href="#">All Product</a>
+    </div>
+    <div class="image" >
+        <img  class="imege" src="img/0.png" alt="">
+    </div>
+</div>
+<div class="icons">
+<img onclick="phones(this.src);colors('#000')"src="img/0.png" alt="">
+<img onclick="phones(this.src);colors('#247ec8')"src="img/1.png" alt="">
+<img onclick="phones(this.src);colors('#lelele')"src="img/2.png" alt="">
+<img onclick="phones(this.src);colors('#c79b53')"src="img/3.png" alt="">
+<img onclick="phones(this.src);colors('#c82525')"src="img/4.png" alt="">
+</div>
+</div>
+    <script src="main.js" ></script>
+</body>
+<script>
+let img = document.querySelector('.imege');
+let contanr = document.querySelector('.containatr');
+function phones(phone){
+img.src = phone;
+}
+function colors(color){
+    contanr.style.background = color;
+}
+</script>
+</html>
