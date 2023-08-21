@@ -427,7 +427,7 @@ margin: 1rem 0 2rem;
 
   /* FOOTER END  */
   /* TABLET RESPONSIVE */
-  @media (max-width:768px){
+  @media (max-width:800px){
     *{
         overflow: scroll;
     }
