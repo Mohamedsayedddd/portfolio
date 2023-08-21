@@ -449,8 +449,8 @@ margin: 1rem 0 2rem;
         }
         #home .navbar nav ul a{
         margin: 0 8px;
-        overflow: visible;
-            font-size:20px;
+        
+            
             
       }
       #home .header-content{grid-template-columns: 1fr;
