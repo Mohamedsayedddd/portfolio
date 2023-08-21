@@ -494,6 +494,10 @@ margin: 1rem 0 2rem;
             font-size: 10px;
               
           } 
+        #home .navbar nav ul li {
+            padding:8px;
+            
+        }
         
         #home .header-content h1{
             font-size:38px;
