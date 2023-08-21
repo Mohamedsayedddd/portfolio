@@ -437,7 +437,7 @@ margin: 1rem 0 2rem;
         #home .navbar nav{
         display: block;
         text-align: center;
-        padding: 20px;
+        
         
         
         }
@@ -446,7 +446,7 @@ margin: 1rem 0 2rem;
         }
         #home .navbar nav ul a{
         margin: 0 8px;
-            margin-right:10px;
+        padding:15px;
       }
       #home .header-content{grid-template-columns: 1fr;
 
